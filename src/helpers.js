@@ -1,5 +1,5 @@
 
-const Builder = require('knex/lib/query/builder');
+const Builder = require('knex/lib/query/querybuilder'); 
 const isFunction = require('lodash.isfunction');
 const errorMessages = require('./error-messages');
 
